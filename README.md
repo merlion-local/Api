@@ -3,34 +3,34 @@
 
 
 ## Description
-This script demonstrates how to use the `requests` library to fetch weather information from different URLs and print the resulting page content.
+This script demonstrates how to use the ***requests*** library to fetch weather information from different URLs and print the resulting page content.
 
 
 ## Dependencies
 
-- Python 3.x
-- Requests library
-- A little luck
+1. - Python 3.x
+2. - Requests library
+3. - A little luck
 
-You can install the `requests` library using pip
+You can install the ***requests*** library using pip
 To install Requests, simply run this simple command in your terminal of choice:
 
-```$ python3 -m pip install requests```
+<br>```$ python3 -m pip install requests```<br>
 
 
 
 
 
 ## Usage
-Please make sure you have the requests library installed before running this script.
+Please make sure you have the ***requests*** library installed before running this script.
 
 Open the terminal and go to the folder where the script is "weather.py " 
 
-and then call ```$ python3 weather.py```
+and then call <br>```$ python3 weather.py```<br>
 
 
 
-The following code snippet shows how to import the `requests` library and fetch data from the given URLs:
+The following code snippet shows how to import the ***requests*** library and fetch data from the given URLs:
 
 
 
@@ -39,7 +39,7 @@ The following code snippet shows how to import the `requests` library and fetch 
 <p>https://wttr.in/Череповец?n?m?MTqu&lang=ru</p>
 
 
-This code iterates over the links list, makes a GET request using the requests.get() method, and prints the resulting page content.
+This code iterates over the links list, makes a GET request using the ``requests.get()`` method, and prints the resulting page content.
 
 
 ```python
